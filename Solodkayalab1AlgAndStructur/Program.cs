@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    // Сравнение строк по первым l элементам
+    
     static bool CompareRows(int[] row1, int[] row2, int l)
     {
         for (int i = 0; i < l; i++)
@@ -14,7 +14,6 @@ class Program
         return false;
     }
 
-    // Слияние двух матриц
     static List<int[]> MergeMatrices(List<int[]> A, List<int[]> B, int l)
     {
         int i = 0, j = 0;
@@ -38,7 +37,6 @@ class Program
         return C;
     }
 
-    // Чтение матрицы с клавиатуры
     static List<int[]> ReadMatrix(string name, int rows, int columns)
     {
         Console.WriteLine($"\nВведите матрицу {name}:");
@@ -61,7 +59,6 @@ class Program
         return matrix;
     }
 
-    // Печать матрицы
     static void PrintMatrix(List<int[]> matrix, string name)
     {
         Console.WriteLine($"\nМатрица {name}:");
