@@ -67,7 +67,6 @@ class Program
             Console.WriteLine(string.Join(" ", row));
         }
     }
-
     static void Main()
     {
         Console.Write("Введите количество строк матрицы A (m): ");
